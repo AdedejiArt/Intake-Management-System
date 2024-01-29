@@ -1,0 +1,28 @@
+.task-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  .task-card .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .task-card .description {
+    margin-bottom: 10px;
+  }
+
+  .task-card .due-date {
+    font-style: italic;
+  }
+
+  .task-card .assignee {
+    color: #888 
+
+}

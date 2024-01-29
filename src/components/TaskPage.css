@@ -1,0 +1,136 @@
+
+  .task-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+
+  .section-new {
+    flex: 1 1 50%; /* Adjust the width as needed */
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+  .section {
+    margin-bottom: 20px; /* Add spacing between sections if desired */
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
+  .section-title-contract-review {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(222, 49, 99);
+    text-align: center;
+  }
+  .section-title-template-request {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(137, 207, 240);
+    text-align: center;
+  }
+  
+.task-cards {
+    display: flex;
+    flex-wrap:wrap; 
+    background-color: rgb(30,31,33);
+  }
+  
+  /* Adjust card styles as needed */
+  .task-card {
+    width: 300px;
+    background-color: rgb(42,43,45);
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  .task-card-new-contract-review {
+    color: rgb(222, 49, 99);
+  }
+  
+  .task-card-new-template-request {
+    color: rgb(137, 207, 240);
+  }
+
+  .task-card-new-document-request {
+    color: rgb(34, 139, 34);
+  }
+
+  .task-card-new-other-request {
+    color: rgb(34, 139, 34);
+  }
+  
+  .task-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .task-card .description {
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .task-card .footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-card .due-date {
+    font-size: 12px;
+    color: #999999;
+  }
+  
+  .task-card .assignee {
+    font-size: 12px;
+    color: #999999;
+    font-weight: bold;
+  }
+
+.view-more-button{
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:100px ;
+  background-color: transparent;
+  color:rgb(203, 195, 227);
+   
+  border-radius: 5px;
+}
+
+.section-title-contract-review {
+  color: rgb(222, 49, 99);
+}
+
+.section-title-template-request {
+  color: rgb(137, 207, 240)
+}
+
+.section-title-document-request {
+  color: rgb(34, 139, 34)
+}
+
+.section-title-other-request {
+  color: rgb(203, 195, 227)
+}

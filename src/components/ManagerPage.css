@@ -1,0 +1,193 @@
+.manager-page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .section {
+    flex: 1;
+    margin: 0 10px;
+     
+  }
+
+  .alltasks{
+    color: white;
+    text-align: center;
+ 
+  }
+
+  .alltasksdiv{
+    color: white;
+    margin-bottom: 30px;
+    margin-right: 100px;
+ 
+  }
+  
+  .section-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    
+  }
+.section-title-newsubsection{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 150px;
+}
+  
+  .task-card{
+    background-color: rgb(42,43,45);
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* color: white; */
+    margin-left: 50px;
+  }
+
+.task-card-contract-review{
+    color:rgb(222, 49, 99) ;
+  }
+  .task-card-template-request{
+    color:rgb(137, 207, 240) ;
+  }
+  .task-card-document-request{
+    color:rgb(34, 139, 34) ;
+  }
+  .task-card-other-request{
+    color:rgb(203, 195, 227);}
+  
+  
+  .task-card-title {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .task-card-description {
+    font-size: 0.8rem;
+    color: #888888;
+     
+  }
+  
+  .task-card-status {
+    font-size: 0.8rem;
+    color: #555555;
+  }
+  
+  .section-container {
+    display: flex;
+    flex-direction: column;
+  }
+.Contract-Review-Tasks{
+  /* color: rgb(222, 49, 99); */
+  text-align: center;
+  margin-top: 10px;
+  font: bold;
+  /* background-color: rgb(222, 49, 99); */
+}
+.task-card .footer {
+  padding-top: 10px;
+  margin-bottom: -19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-card .due-date {
+  font-size: 12px;
+  color: #999999;
+}
+
+.task-card-assignee {
+  font-size: 10px;
+  color: #999999;
+   
+}
+
+.section-title-subsection{
+  font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+
+.search-container input {
+  width: 150px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+}
+
+.search-container button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #45a049;
+}
+
+.search-container button:focus {
+  outline: none;
+}
+
+/* Search Button */
+.search-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* Filter Button */
+.filter-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: transparent;
+  width: 150px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filter-button:hover {
+  background-color: #999999;
+}
+
+/* Active Filter Button */
+.active-filter-button {
+  background-color: #999999;
+}
+
+
+
+ 
+/* CSS classes for different request types */
+ 

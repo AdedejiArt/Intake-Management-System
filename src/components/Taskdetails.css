@@ -1,0 +1,62 @@
+.task-component {
+    position: fixed;
+    top: 0;
+    right: -700px; /* Initially hide the component off-screen */
+    width: 700px;
+    height: 3000px;
+    background-color: rgb(42,43,45);
+    transition: right 0.3s ease-in-out; /* Add transition effect */
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .task-open {
+    right: 0; /* Slide the component into view */
+  }
+
+  .asana-task-details {
+    flex-grow: 1;
+    color:white;
+      
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .task-details-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .task-details-label {
+    font-weight: bold;
+  }
+  
+  .task-details-value {
+    margin-bottom: 10px;
+  }
+  
+  .task-details-due-date {
+      /* Set your desired color for due date */
+    font-weight: bold;
+  }
+  
+  .task-details-assignee {
+    margin-bottom: 10px;
+  }
+  
+  .task-details-description {
+    margin-bottom: 20px;
+  }
+
+  .beautify{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .AI-generated{
+    color: white;
+    margin-left: 10px;
+  }
+  
